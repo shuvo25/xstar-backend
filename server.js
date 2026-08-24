@@ -9,29 +9,16 @@ app.use(express.json());
 const videos = [
   {
     id: "1",
-    title: "Cyberpunk 2099 - Cinematic 4K Experience",
+    title: "Swami Pardesh Suraj Tratak Uday Singh Rawat SIRAZEE Manju Nautiyal Latest Pahadi Song",
     category: "Trending",
     country: "Bangladesh",
     flagUrl: "https://flagcdn.com/w40/bd.png",
-    videoUrl: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-    thumbnail: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23",
-    views: "3.8M",
-    duration: "24:18",
-    channelName: "AeroVision Cinema",
-    channelAvatar: "https://i.pravatar.cc/150?img=33"
-  },
-  {
-    id: "2",
-    title: "4K Nature Relaxation Film",
-    category: "Recommend",
-    country: "United States",
-    flagUrl: "https://flagcdn.com/w40/us.png",
-    videoUrl: "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
-    thumbnail: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    videoUrl: "https://archive.org/download/swami-pardesh-suraj-tratak-uday-singh-rawat-sirazee-manju-nautiyal-latest-pahadi-song-1080p/Swami_Pardesh-_Suraj_Tratak___Uday_Singh_Rawat___SIRAZEE___Manju_Nautiyal___Latest_Pahadi_Song%281080p%29.mp4",
+    thumbnail: "https://archive.org/download/swami-pardesh-suraj-tratak-uday-singh-rawat-sirazee-manju-nautiyal-latest-pahadi-song-1080p/__ia_thumb.jpg",
     views: "1.2M",
-    duration: "15:40",
-    channelName: "Nature Scope",
-    channelAvatar: "https://i.pravatar.cc/150?img=12"
+    duration: "24:18",
+    channelName: "Pahadi Music",
+    channelAvatar: "https://i.pravatar.cc/150?img=33"
   }
 ];
 
@@ -46,4 +33,3 @@ app.get('/api/videos', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
